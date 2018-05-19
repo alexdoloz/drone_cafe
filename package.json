@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/alexdoloz/drone_cafe#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.3",
+    "express-validator": "^5.2.0",
     "mongoose": "^5.0.14",
     "socket.io": "^2.1.0"
   }
