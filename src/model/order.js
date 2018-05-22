@@ -5,7 +5,7 @@ const OrderState = require('./order_state');
 const menu = require('./menu.json');
 
 const orderSchema = mongoose.Schema({
-    customerId: {
+    customer: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Customer'
     },
